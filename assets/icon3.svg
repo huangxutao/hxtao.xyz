@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#B8F1FD" offset="0%"></stop>
+            <stop stop-color="#A7EEFF" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Apple-TV" transform="translate(-876.000000, -490.000000)" stroke="url(#radialGradient-1)" stroke-width="6">
+            <circle id="Oval" transform="translate(891.000000, 505.000000) rotate(-37.000000) translate(-891.000000, -505.000000) " cx="891" cy="505" r="12"></circle>
+        </g>
+    </g>
+</svg>
