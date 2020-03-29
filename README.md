@@ -1,3 +1,3 @@
 # hxtao.xyz
 
-[![wrapper](./assets/wrapper.png)](https://hxtao.xyz)
+[![wrapper](./src/assets/wrapper.png)](https://hxtao.xyz)
