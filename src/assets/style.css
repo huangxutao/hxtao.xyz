@@ -308,6 +308,34 @@ img.icon[alt=icon6]{
   right: 60%;
 }
 
+.install-btn{
+  position: fixed;
+  right: 0;
+  bottom: -60px;
+  left: 0;
+  margin: auto;
+  font-size: .1rem;
+  width: 1.4rem;
+  height: .24rem;
+  border: none;
+  color: #3f7e8c;
+  font-weight: 500;
+  /* text-shadow: 0px 0px 2px #dedede; */
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 0 12px #eee;
+  z-index: 999;
+  outline: none;
+  animation: fadeUp .36s ease forwards;
+  animation-delay: 2.22s;
+  cursor: pointer;
+  transition: transform .6s ease;
+}
+
+.install-btn.hidden{
+  transform: translate(0, 100px);
+}
+
 @keyframes fadeIn{
   from{
     opacity: 0;
@@ -315,6 +343,16 @@ img.icon[alt=icon6]{
 
   to{
     opacity: 1;
+  }
+}
+
+@keyframes fadeUp{
+  from{
+    bottom: -60px;
+  }
+
+  to{
+    bottom: 12px;
   }
 }
 
