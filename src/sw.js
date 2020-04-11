@@ -1,4 +1,4 @@
-const CACHE_NAME = 'static-cache:0.0.7';
+const CACHE_NAME = 'static-cache:0.0.4';
 
 const cacheStaticFiles = [
   '1-1.png',
