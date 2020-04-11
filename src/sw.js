@@ -1,4 +1,4 @@
-const CACHE_NAME = 'static-cache:0.0.4';
+const CACHE_NAME = 'static-cache:0.0.5';
 
 const cacheStaticFiles = [
   '1-1.png',
@@ -16,12 +16,11 @@ const cacheStaticFiles = [
   'lab-bg.svg',
   'me-bg.svg',
   'note-bg.svg',
-  'wrapper.png',
   'style.css',
   'script.js'
 ];
 
-const cacheIcons = ['32', '64', '72', '96', '128', '144', '152', '192', '256', '384', '512'];
+// const cacheIcons = ['32', '64', '72', '96', '128', '144', '152', '192', '256', '384', '512'];
 
 // const cdnFiles = [
 //   'https://at.alicdn.com/t/font_1721575_eh4rtw96r6p.css',
@@ -44,7 +43,7 @@ self.addEventListener('install', (e) => {
       return cache.addAll(['manifest.json'].concat(
         // cdnFiles,
         cacheStaticFiles.map(v => `assets/${v}`),
-        cacheIcons.map(v => `/icons/${v}.png`)
+        // cacheIcons.map(v => `/icons/${v}.png`)
       ));
     })
   );
